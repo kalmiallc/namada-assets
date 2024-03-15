@@ -65,369 +65,126 @@
       ]
     },
     {
-      "chain_name": "cosmoshub",
+      "chain_name": "osmosis",
       "status": "live",
       "network_type": "mainnet",
-      "pretty_name": "Cosmos Hub",
-      "chain_id": "cosmoshub-4",
-      "bech32_prefix": "cosmos",
+      "pretty_name": "Osmosis",
+      "chain_id": "osmosis-1",
+      "bech32_prefix": "osmo",
       "bech32_config": {
-        "bech32PrefixAccAddr": "cosmos",
-        "bech32PrefixAccPub": "cosmospub",
-        "bech32PrefixValAddr": "cosmosvaloper",
-        "bech32PrefixValPub": "cosmosvaloperpub",
-        "bech32PrefixConsAddr": "cosmosvalcons",
-        "bech32PrefixConsPub": "cosmosvalconspub"
+        "bech32PrefixAccAddr": "osmo",
+        "bech32PrefixAccPub": "osmopub",
+        "bech32PrefixValAddr": "osmovaloper",
+        "bech32PrefixValPub": "osmovaloperpub",
+        "bech32PrefixConsAddr": "osmovalcons",
+        "bech32PrefixConsPub": "osmovalconspub"
       },
       "slip44": 118,
       "fees": {
         "fee_tokens": [
           {
-            "denom": "uatom",
-            "fixed_min_gas_price": 0.005,
-            "low_gas_price": 0.01,
+            "denom": "uosmo",
+            "fixed_min_gas_price": 0.0025,
+            "low_gas_price": 0.0025,
             "average_gas_price": 0.025,
-            "high_gas_price": 0.03
+            "high_gas_price": 0.04
           }
         ]
       },
       "staking": {
         "staking_tokens": [
           {
-            "denom": "uatom"
+            "denom": "uosmo"
           }
-        ]
+        ],
+        "lock_duration": {
+          "time": "1209600s"
+        }
       },
-      "description": "In a nutshell, Cosmos Hub bills itself as a project that solves some of the hardest problems facing the blockchain industry. It aims to offer an antidote to slow, expensive, unscalable and environmentally harmful proof-of-work protocols, like those used by Bitcoin, by offering an ecosystem of connected blockchains.\n\nThe project’s other goals include making blockchain technology less complex and difficult for developers thanks to a modular framework that demystifies decentralized apps. Last but not least, an Inter-blockchain Communication protocol makes it easier for blockchain networks to communicate with each other — preventing fragmentation in the industry.\n\nCosmos Hub's origins can be dated back to 2014, when Tendermint, a core contributor to the network, was founded. In 2016, a white paper for Cosmos was published — and a token sale was held the following year. ATOM tokens are earned through a hybrid proof-of-stake algorithm, and they help to keep the Cosmos Hub, the project’s flagship blockchain, secure. This cryptocurrency also has a role in the network’s governance.",
+      "description": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage.\n\nAs a true appchain, Osmosis has greater control over the full blockchain stack than traditional smart contract DEXs, which must follow the code of the parent chain that it is built on. This fine-grained control has enabled, for example, the development of Superfluid Staking, an extension of Proof of Stake that allows assets at the application layer to be staked to secure the chain. The customizability of appchains also allows implementing features like the Protocol Revenue module, which enables Osmosis to conduct on-chain arbitrage on behalf of OSMO stakers, balancing prices across pools while generating real yield revenue from this volume. Additionally, as a sovereign appchain, Osmosis governance can vote on upgrades to the protocol. One example of this was the introduction of a Taker Fee, which switched on the collection of exchange fees to generate diverse yield from Osmosis volume and distribute it to OSMO stakers.\n\nOsmosis is bringing the full centralized exchange experience to the decentralized world by building a cross-chain native DEX and trading suite that connects all chains over IBC, including Ethereum and Bitcoin. To reach this goal, Osmosis hosts an ever-expanding suite of DeFi applications aimed at providing a one-stop experience that includes lending, credit, margin, DeFi strategy vaults, power perps, fiat on-ramps, NFTs, stablecoins, and more — all of the functionalities that centralized exchange offer and more, in the trust-minimized environment of decentralized finance.",
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-cosmoshub.keplr.app"
+            "address": "https://rpc-osmosis.keplr.app"
           }
         ],
         "rest": [
           {
-            "address": "https://lcd-cosmoshub.keplr.app"
+            "address": "https://lcd-osmosis.keplr.app"
           }
         ]
       },
       "explorers": [
         {
-          "tx_page": "https://www.mintscan.io/cosmos/txs/${txHash}"
+          "tx_page": "https://www.mintscan.io/osmosis/txs/${txHash}"
         }
       ],
       "features": [
         "ibc-go",
-        "ibc-transfer"
-      ]
-    },
-    {
-      "chain_name": "terra",
-      "status": "live",
-      "network_type": "mainnet",
-      "pretty_name": "Terra Classic",
-      "chain_id": "columbus-5",
-      "bech32_prefix": "terra",
-      "bech32_config": {
-        "bech32PrefixAccAddr": "terra",
-        "bech32PrefixAccPub": "terrapub",
-        "bech32PrefixValAddr": "terravaloper",
-        "bech32PrefixValPub": "terravaloperpub",
-        "bech32PrefixConsAddr": "terravalcons",
-        "bech32PrefixConsPub": "terravalconspub"
-      },
-      "slip44": 330,
-      "fees": {
-        "fee_tokens": [
-          {
-            "denom": "uluna",
-            "low_gas_price": 28.325,
-            "average_gas_price": 28.325,
-            "high_gas_price": 50
-          },
-          {
-            "denom": "usdr",
-            "low_gas_price": 0.52469,
-            "average_gas_price": 0.52469,
-            "high_gas_price": 0.52469
-          },
-          {
-            "denom": "uusd",
-            "low_gas_price": 0.75,
-            "average_gas_price": 0.75,
-            "high_gas_price": 0.75
-          },
-          {
-            "denom": "ukrw",
-            "low_gas_price": 850,
-            "average_gas_price": 850,
-            "high_gas_price": 850
-          },
-          {
-            "denom": "umnt",
-            "low_gas_price": 2142.855,
-            "average_gas_price": 2142.855,
-            "high_gas_price": 2142.855
-          },
-          {
-            "denom": "ueur",
-            "low_gas_price": 0.625,
-            "average_gas_price": 0.625,
-            "high_gas_price": 0.625
-          },
-          {
-            "denom": "ucny",
-            "low_gas_price": 4.9,
-            "average_gas_price": 4.9,
-            "high_gas_price": 4.9
-          },
-          {
-            "denom": "ujpy",
-            "low_gas_price": 81.85,
-            "average_gas_price": 81.85,
-            "high_gas_price": 81.85
-          },
-          {
-            "denom": "ugbp",
-            "low_gas_price": 0.55,
-            "average_gas_price": 0.55,
-            "high_gas_price": 0.55
-          },
-          {
-            "denom": "uinr",
-            "low_gas_price": 54.4,
-            "average_gas_price": 54.4,
-            "high_gas_price": 54.4
-          },
-          {
-            "denom": "ucad",
-            "low_gas_price": 0.95,
-            "average_gas_price": 0.95,
-            "high_gas_price": 0.95
-          },
-          {
-            "denom": "uchf",
-            "low_gas_price": 0.7,
-            "average_gas_price": 0.7,
-            "high_gas_price": 0.7
-          },
-          {
-            "denom": "uaud",
-            "low_gas_price": 0.95,
-            "average_gas_price": 0.95,
-            "high_gas_price": 0.95
-          },
-          {
-            "denom": "usgd",
-            "low_gas_price": 1,
-            "average_gas_price": 1,
-            "high_gas_price": 1
-          },
-          {
-            "denom": "uthb",
-            "low_gas_price": 23.1,
-            "average_gas_price": 23.1,
-            "high_gas_price": 23.1
-          },
-          {
-            "denom": "usek",
-            "low_gas_price": 6.25,
-            "average_gas_price": 6.25,
-            "high_gas_price": 6.25
-          },
-          {
-            "denom": "unok",
-            "low_gas_price": 6.25,
-            "average_gas_price": 6.25,
-            "high_gas_price": 6.25
-          },
-          {
-            "denom": "udkk",
-            "low_gas_price": 4.5,
-            "average_gas_price": 4.5,
-            "high_gas_price": 4.5
-          },
-          {
-            "denom": "uidr",
-            "low_gas_price": 10900,
-            "average_gas_price": 10900,
-            "high_gas_price": 10900
-          },
-          {
-            "denom": "uphp",
-            "low_gas_price": 38,
-            "average_gas_price": 38,
-            "high_gas_price": 38
-          },
-          {
-            "denom": "uhkd",
-            "low_gas_price": 5.85,
-            "average_gas_price": 5.85,
-            "high_gas_price": 5.85
-          },
-          {
-            "denom": "umyr",
-            "low_gas_price": 3,
-            "average_gas_price": 3,
-            "high_gas_price": 3
-          },
-          {
-            "denom": "utwd",
-            "low_gas_price": 20,
-            "average_gas_price": 20,
-            "high_gas_price": 20
-          }
-        ]
-      },
-      "staking": {
-        "staking_tokens": [
-          {
-            "denom": "uluna"
-          }
-        ]
-      },
-      "apis": {
-        "rpc": [
-          {
-            "address": "https://rpc-terra-ia.cosmosia.notional.ventures/"
-          }
-        ],
-        "rest": [
-          {
-            "address": "https://api-terra-ia.cosmosia.notional.ventures/"
-          }
-        ]
-      },
-      "explorers": [
-        {
-          "tx_page": "https://finder.terra.money/columbus-5/tx/${txHash}"
-        }
-      ],
-      "features": [
         "ibc-transfer",
-        "terra-classic-fee"
-      ]
-    },
-    {
-      "chain_name": "secretnetwork",
-      "status": "live",
-      "network_type": "mainnet",
-      "pretty_name": "Secret Network",
-      "chain_id": "secret-4",
-      "bech32_prefix": "secret",
-      "bech32_config": {
-        "bech32PrefixAccAddr": "secret",
-        "bech32PrefixAccPub": "secretpub",
-        "bech32PrefixValAddr": "secretvaloper",
-        "bech32PrefixValPub": "secretvaloperpub",
-        "bech32PrefixConsAddr": "secretvalcons",
-        "bech32PrefixConsPub": "secretvalconspub"
-      },
-      "slip44": 529,
-      "alternative_slip44s": [
-        118
-      ],
-      "fees": {
-        "fee_tokens": [
-          {
-            "denom": "uscrt",
-            "fixed_min_gas_price": 0.05,
-            "low_gas_price": 0.05,
-            "average_gas_price": 0.1,
-            "high_gas_price": 0.25
-          }
-        ]
-      },
-      "staking": {
-        "staking_tokens": [
-          {
-            "denom": "uscrt"
-          }
-        ]
-      },
-      "description": "Secret Network is the first blockchain with customizable privacy. You get to choose what you share, with whom, and how. This protects users, and empowers developers to build a better Web3.",
-      "apis": {
-        "rpc": [
-          {
-            "address": "https://rpc-secret.keplr.app"
-          }
-        ],
-        "rest": [
-          {
-            "address": "https://lcd-secret.keplr.app"
-          }
-        ]
-      },
-      "explorers": [
-        {
-          "tx_page": "https://secretnodes.com/secret/chains/secret-4/transactions/${txHash}"
-        }
-      ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "secretwasm",
         "cosmwasm",
-        "wasmd_0.24+"
+        "wasmd_0.24+",
+        "osmosis-txfees"
       ]
     },
     {
-      "chain_name": "akash",
+      "chain_name": "osmosistestnet",
       "status": "live",
-      "network_type": "mainnet",
-      "pretty_name": "Akash",
-      "chain_id": "akashnet-2",
-      "bech32_prefix": "akash",
+      "network_type": "testnet",
+      "pretty_name": "Osmosis Testnet",
+      "chain_id": "osmo-test-5",
+      "bech32_prefix": "osmo",
       "bech32_config": {
-        "bech32PrefixAccAddr": "akash",
-        "bech32PrefixAccPub": "akashpub",
-        "bech32PrefixValAddr": "akashvaloper",
-        "bech32PrefixValPub": "akashvaloperpub",
-        "bech32PrefixConsAddr": "akashvalcons",
-        "bech32PrefixConsPub": "akashvalconspub"
+        "bech32PrefixAccAddr": "osmo",
+        "bech32PrefixAccPub": "osmopub",
+        "bech32PrefixValAddr": "osmovaloper",
+        "bech32PrefixValPub": "osmovaloperpub",
+        "bech32PrefixConsAddr": "osmovalcons",
+        "bech32PrefixConsPub": "osmovalconspub"
       },
       "slip44": 118,
       "fees": {
         "fee_tokens": [
           {
-            "denom": "uakt",
+            "denom": "uosmo",
             "fixed_min_gas_price": 0,
-            "low_gas_price": 0.00025,
-            "average_gas_price": 0.0025,
-            "high_gas_price": 0.025
+            "low_gas_price": 0.0025,
+            "average_gas_price": 0.025,
+            "high_gas_price": 0.04
           }
         ]
       },
       "staking": {
         "staking_tokens": [
           {
-            "denom": "uakt"
+            "denom": "uosmo"
           }
         ]
       },
-      "description": "Akash is open-source Supercloud that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.",
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-akash.keplr.app"
+            "address": "https://rpc.osmotest5.osmosis.zone/"
           }
         ],
         "rest": [
           {
-            "address": "https://lcd-akash.keplr.app"
+            "address": "https://lcd.osmotest5.osmosis.zone/"
           }
         ]
       },
       "explorers": [
         {
-          "tx_page": "https://www.mintscan.io/akash/txs/${txHash}"
+          "tx_page": "https://testnet.mintscan.io/osmosis-testnet/txs/${txHash}"
         }
       ],
       "features": [
+        "ibc-go",
         "ibc-transfer",
-        "ibc-go"
+        "cosmwasm",
+        "wasmd_0.24+",
+        "osmosis-txfees"
       ]
     }
-    
   ]
 }
