@@ -1,0 +1,69 @@
+{
+  "$schema": "../zone.schema.json",
+  "chain_name": "namada-shielded",
+  "assets": [
+    {
+      "chain_name": "namada-shielded",
+      "base_denom": "Naan",
+      "twitter_URL": "https://twitter.com/Naan",
+      "osmosis_verified": true
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "uosmo",
+      "twitter_URL": "https://twitter.com/osmosiszone",
+      "osmosis_verified": true
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "uion",
+      "twitter_URL": "https://twitter.com/_IONDAO",
+      "osmosis_verified": true
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "uusdc",
+      "path": "transfer/channel-208/uusdc",
+      "peg_mechanism": "collateralized",
+      "osmosis_verified": true,
+      "transfer_methods": [
+        {
+          "name": "Axelar Bridge",
+          "type": "integrated_bridge",
+          "counterparty": [
+            {
+              "chain_name": "ethereum",
+              "unwrappedAssetId": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            },
+            {
+              "chain_name": "avalanche",
+              "unwrappedAssetId": "0xfab550568C688d5d8a52c7d794cb93edc26ec0ec"
+            },
+            {
+              "chain_name": "moonbeam",
+              "unwrappedAssetId": "0xca01a1d0993565291051daff390892518acfad3a"
+            },
+            {
+              "chain_name": "polygon",
+              "unwrappedAssetId": "0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed"
+            }
+          ],
+          "unwrappedAssetId": "uusdc"
+        },
+        {
+          "name": "Satellite",
+          "type": "external_interface",
+          "deposit_url": "https://satellite.money/?source=ethereum&destination=osmosis&asset_denom=uusdc",
+          "withdraw_url": "https://satellite.money/?source=osmosis&destination=ethereum&asset_denom=uusdc"
+        }
+      ],
+      "override_properties": {
+        "symbol": "USDC.axl",
+        "logo_URIs": {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png"
+        }
+      }
+    }
+  ]
+}

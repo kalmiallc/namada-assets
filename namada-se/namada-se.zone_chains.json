@@ -1,0 +1,39 @@
+{
+  "$schema": "../zone_chains.schema.json",
+  "chains": [
+    {
+      "chain_name": "osmosis",
+      "rpc": "https://rpc-osmosis.keplr.app",
+      "rest": "https://lcd-osmosis.keplr.app",
+      "explorer_tx_url": "https://www.mintscan.io/osmosis/txs/${txHash}",
+      "keplr_features": [
+        "ibc-go",
+        "ibc-transfer",
+        "cosmwasm",
+        "wasmd_0.24+",
+        "osmosis-txfees"
+      ]
+    },
+    {
+      "chain_name": "cosmoshub",
+      "rpc": "https://rpc-cosmoshub.keplr.app",
+      "rest": "https://lcd-cosmoshub.keplr.app",
+      "explorer_tx_url": "https://www.mintscan.io/cosmos/txs/${txHash}",
+      "keplr_features": [
+        "ibc-go",
+        "ibc-transfer"
+      ]
+    },
+    {
+      "chain_name": "namada-shielded",
+      "rpc": "https://proxy.heliax.click/shielded-expedition.88f17d1d14",
+      "rest": "https://proxy.heliax.click/shielded-expedition.88f17d1d14",
+      "explorer_tx_url": "https://testnet.osmosis.explorers.guru/transaction/{txHash}",
+      "keplr_features": [
+        "ibc-go",
+        "ibc-transfer"
+      ]
+    }
+    
+  ]
+}

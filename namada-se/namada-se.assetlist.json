@@ -1,0 +1,60 @@
+{
+  "chain_name": "namada-shielded",
+  "assets": [
+    {
+      "description": "The native token of Osmosis",
+      "denom_units": [
+        {
+          "denom": "Naan",
+          "exponent": 6
+        }
+      ],
+      "base": "Naan",
+      "name": "Namada token",
+      "display": "Naan",
+      "symbol": "NAAN",
+      "traces": [],
+      "logo_URIs": {
+        "png": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
+      },
+      "coingecko_id": "Naan",
+      "keywords": [
+        "dex",
+        "staking",
+        "namada-main",
+        "namada-info",
+        "namada-price:ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
+      ]
+    },
+    {
+      "description": "The native token of Osmosis",
+      "denom_units": [
+        {
+          "denom": "uosmo",
+          "exponent": 0
+        },
+        {
+          "denom": "osmo",
+          "exponent": 6
+        }
+      ],
+      "base": "uosmo",
+      "name": "Osmosis",
+      "display": "osmo",
+      "symbol": "OSMO",
+      "traces": [],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+      },
+      "coingecko_id": "osmosis",
+      "keywords": [
+        "dex",
+        "staking",
+        "osmosis-main",
+        "osmosis-info",
+        "osmosis-price:ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4:1263"
+      ]
+    }
+  ]
+}

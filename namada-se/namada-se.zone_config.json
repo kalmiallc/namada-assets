@@ -1,0 +1,12 @@
+{
+  "$schema": "../zone.schema.json",
+  "chain_name": "namada-shielded",
+  "config": {
+    "providers": [
+  
+    ],
+    "evm_chains": [
+      
+    ]
+  }
+}
