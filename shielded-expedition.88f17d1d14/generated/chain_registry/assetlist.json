@@ -39,15 +39,15 @@
       "description": "The native token of Namada",
       "denom_units": [
         {
-          "denom": "naan",
+          "denom": "nam",
           "exponent": 6
         }
       ],
       "type_asset": "sdk.coin",
-      "base": "Naan",
+      "base": "Nam",
       "name": "Namada",
-      "display": "Naan",
-      "symbol": "NAAN",
+      "display": "Nam",
+      "symbol": "NAM",
       "logoURIs": {
         "png": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
       },
@@ -56,7 +56,7 @@
           "png": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
         }
       ],
-      "coingecko_id": "Naan",
+      "coingecko_id": "Nam",
       "keywords": [
         "dex",
         "staking"

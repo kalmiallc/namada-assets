@@ -5,19 +5,19 @@
       "description": "The native token of Osmosis",
       "denom_units": [
         {
-          "denom": "Naan",
+          "denom": "Nam",
           "exponent": 6
         }
       ],
-      "base": "Naan",
+      "base": "Nam",
       "name": "Namada token",
-      "display": "Naan",
-      "symbol": "NAAN",
+      "display": "Nam",
+      "symbol": "NAM",
       "traces": [],
       "logo_URIs": {
         "png": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
       },
-      "coingecko_id": "Naan",
+      "coingecko_id": "Nam",
       "keywords": [
         "dex",
         "staking",

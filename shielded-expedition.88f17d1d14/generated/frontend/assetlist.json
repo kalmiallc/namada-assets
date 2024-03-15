@@ -73,28 +73,28 @@
     },
     {
       "chainName": "namada-shielded",
-      "sourceDenom": "Naan",
-      "coinMinimalDenom": "Naan",
-      "symbol": "NAAN",
+      "sourceDenom": "Nam",
+      "coinMinimalDenom": "Nam",
+      "symbol": "NAM",
       "decimals": 6,
       "logoURIs": {
         "png": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
       },
-      "coingeckoId": "Naan",
+      "coingeckoId": "Nam",
       "price": {
         "poolId": "2",
-        "denom": "Naan"
+        "denom": "Nam"
       },
       "categories": [],
       "transferMethods": [],
       "counterparty": [],
-      "name": "Naan",
+      "name": "Nam",
       "description": "",
       "verified": true,
       "unstable": false,
       "disabled": false,
       "preview": false,
-      "twitterURL": "https://twitter.com/Naan",
+      "twitterURL": "https://twitter.com/Nam",
       "relatedAssets": [
         {
           "chainName": "osmosis",

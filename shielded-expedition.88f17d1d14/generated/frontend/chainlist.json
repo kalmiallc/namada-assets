@@ -82,29 +82,29 @@
       "networkType": "testnet",
       "prettyName": "namada-shielded",
       "chain_id": "shielded-expedition.88f17d1d14",
-      "bech32Prefix": "naan",
+      "bech32Prefix": "nam",
       "bech32Config": {
-        "bech32PrefixAccAddr": "naan",
-        "bech32PrefixAccPub": "naanpub",
-        "bech32PrefixValAddr": "naanvaloper",
-        "bech32PrefixValPub": "naanvaloperpub",
-        "bech32PrefixConsAddr": "naanvalcons",
-        "bech32PrefixConsPub": "naanvalconspub"
+        "bech32PrefixAccAddr": "nam",
+        "bech32PrefixAccPub": "nampub",
+        "bech32PrefixValAddr": "namvaloper",
+        "bech32PrefixValPub": "namvaloperpub",
+        "bech32PrefixConsAddr": "namvalcons",
+        "bech32PrefixConsPub": "namvalconspub"
       },
       "slip44": 118,
       "stakeCurrency": {
-        "coinDenom": "Naan",
-        "chainSuggestionDenom": "naan",
-        "coinMinimalDenom": "naan",
+        "coinDenom": "Nam",
+        "chainSuggestionDenom": "nam",
+        "coinMinimalDenom": "nam",
         "coinDecimals": 6,
         "coinGeckoId": "osmosis",
         "coinImageUrl": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
       },
       "feeCurrencies": [
         {
-          "coinDenom": "Naan",
-          "chainSuggestionDenom": "naan",
-          "coinMinimalDenom": "naan",
+          "coinDenom": "Nam",
+          "chainSuggestionDenom": "nam",
+          "coinMinimalDenom": "nam",
           "coinDecimals": 6,
           "coinGeckoId": "osmosis",
           "coinImageUrl": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png",
@@ -125,9 +125,9 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
         },
         {
-          "coinDenom": "NAAN",
-          "chainSuggestionDenom": "naan",
-          "coinMinimalDenom": "naan",
+          "coinDenom": "NAM",
+          "chainSuggestionDenom": "nam",
+          "coinMinimalDenom": "nam",
           "coinDecimals": 6,
           "coinGeckoId": "osmosis",
           "coinImageUrl": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
