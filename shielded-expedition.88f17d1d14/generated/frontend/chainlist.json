@@ -241,6 +241,350 @@
         "ibc-go",
         "ibc-transfer"
       ]
+    },
+    {
+      "chain_name": "axelar",
+      "status": "live",
+      "networkType": "mainnet",
+      "prettyName": "Axelar",
+      "chain_id": "axelar-dojo-1",
+      "bech32Prefix": "axelar",
+      "bech32Config": {
+        "bech32PrefixAccAddr": "axelar",
+        "bech32PrefixAccPub": "axelarpub",
+        "bech32PrefixValAddr": "axelarvaloper",
+        "bech32PrefixValPub": "axelarvaloperpub",
+        "bech32PrefixConsAddr": "axelarvalcons",
+        "bech32PrefixConsPub": "axelarvalconspub"
+      },
+      "slip44": 118,
+      "stakeCurrency": {
+        "coinDenom": "AXL",
+        "chainSuggestionDenom": "uaxl",
+        "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
+        "sourceDenom": "uaxl",
+        "coinDecimals": 6,
+        "coinGeckoId": "axelar",
+        "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png"
+      },
+      "feeCurrencies": [
+        {
+          "coinDenom": "AXL",
+          "chainSuggestionDenom": "uaxl",
+          "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
+          "sourceDenom": "uaxl",
+          "coinDecimals": 6,
+          "coinGeckoId": "axelar",
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
+          "gasPriceStep": {
+            "low": 0.007,
+            "average": 0.007,
+            "high": 0.01
+          }
+        }
+      ],
+      "currencies": [
+        {
+          "coinDenom": "AXL",
+          "chainSuggestionDenom": "uaxl",
+          "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
+          "sourceDenom": "uaxl",
+          "coinDecimals": 6,
+          "coinGeckoId": "axelar",
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png"
+        },
+        {
+          "coinDenom": "USDC",
+          "chainSuggestionDenom": "uusdc",
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+          "sourceDenom": "uusdc",
+          "coinDecimals": 6,
+          "coinGeckoId": "axlusdc",
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+        },
+        {
+          "coinDenom": "FRAX",
+          "chainSuggestionDenom": "frax-wei",
+          "coinMinimalDenom": "ibc/0E43EDE2E2A3AFA36D0CD38BDDC0B49FECA64FA426A82E102F304E430ECF46EE",
+          "sourceDenom": "frax-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/frax.svg"
+        },
+        {
+          "coinDenom": "DAI",
+          "chainSuggestionDenom": "dai-wei",
+          "coinMinimalDenom": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
+          "sourceDenom": "dai-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/dai.png"
+        },
+        {
+          "coinDenom": "USDT",
+          "chainSuggestionDenom": "uusdt",
+          "coinMinimalDenom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
+          "sourceDenom": "uusdt",
+          "coinDecimals": 6,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png"
+        },
+        {
+          "coinDenom": "WETH",
+          "chainSuggestionDenom": "weth-wei",
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+          "sourceDenom": "weth-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+        },
+        {
+          "coinDenom": "WBTC",
+          "chainSuggestionDenom": "wbtc-satoshi",
+          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
+          "sourceDenom": "wbtc-satoshi",
+          "coinDecimals": 8,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+        },
+        {
+          "coinDenom": "AAVE",
+          "chainSuggestionDenom": "aave-wei",
+          "coinMinimalDenom": "ibc/384E5DD50BDE042E1AAF51F312B55F08F95BC985C503880189258B4D9374CBBE",
+          "sourceDenom": "aave-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/aave.svg"
+        },
+        {
+          "coinDenom": "APE",
+          "chainSuggestionDenom": "ape-wei",
+          "coinMinimalDenom": "ibc/F83CC6471DA4D4B508F437244F10B9E4C68975344E551A2DEB6B8617AB08F0D4",
+          "sourceDenom": "ape-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ape.svg"
+        },
+        {
+          "coinDenom": "AXS",
+          "chainSuggestionDenom": "axs-wei",
+          "sourceDenom": "axs-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/axs.svg"
+        },
+        {
+          "coinDenom": "LINK",
+          "chainSuggestionDenom": "link-wei",
+          "coinMinimalDenom": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
+          "sourceDenom": "link-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png"
+        },
+        {
+          "coinDenom": "MKR",
+          "chainSuggestionDenom": "mkr-wei",
+          "coinMinimalDenom": "ibc/D27DDDF34BB47E5D5A570742CC667DE53277867116CCCA341F27785E899A70F3",
+          "sourceDenom": "mkr-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mkr.svg"
+        },
+        {
+          "coinDenom": "RAI",
+          "chainSuggestionDenom": "rai-wei",
+          "coinMinimalDenom": "ibc/BD796662F8825327D41C96355DF62045A5BA225BAE31C0A86289B9D88ED3F44E",
+          "sourceDenom": "rai-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/rai.svg"
+        },
+        {
+          "coinDenom": "SHIB",
+          "chainSuggestionDenom": "shib-wei",
+          "coinMinimalDenom": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
+          "sourceDenom": "shib-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg"
+        },
+        {
+          "coinDenom": "stETH",
+          "chainSuggestionDenom": "steth-wei",
+          "sourceDenom": "steth-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/steth.svg"
+        },
+        {
+          "coinDenom": "UNI",
+          "chainSuggestionDenom": "uni-wei",
+          "sourceDenom": "uni-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uni.svg"
+        },
+        {
+          "coinDenom": "XCN",
+          "chainSuggestionDenom": "xcn-wei",
+          "sourceDenom": "xcn-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xcn.svg"
+        },
+        {
+          "coinDenom": "DOT",
+          "chainSuggestionDenom": "dot-planck",
+          "coinMinimalDenom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
+          "sourceDenom": "dot-planck",
+          "coinDecimals": 10,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png"
+        },
+        {
+          "coinDenom": "WGLMR",
+          "chainSuggestionDenom": "wglmr-wei",
+          "coinMinimalDenom": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
+          "sourceDenom": "wglmr-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png"
+        },
+        {
+          "coinDenom": "WMATIC",
+          "chainSuggestionDenom": "wmatic-wei",
+          "coinMinimalDenom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
+          "sourceDenom": "wmatic-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png"
+        },
+        {
+          "coinDenom": "WBNB",
+          "chainSuggestionDenom": "wbnb-wei",
+          "coinMinimalDenom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
+          "sourceDenom": "wbnb-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.png"
+        },
+        {
+          "coinDenom": "BUSD",
+          "chainSuggestionDenom": "busd-wei",
+          "coinMinimalDenom": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
+          "sourceDenom": "busd-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png"
+        },
+        {
+          "coinDenom": "WAVAX",
+          "chainSuggestionDenom": "wavax-wei",
+          "coinMinimalDenom": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
+          "sourceDenom": "wavax-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
+        },
+        {
+          "coinDenom": "WFTM",
+          "chainSuggestionDenom": "wftm-wei",
+          "coinMinimalDenom": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
+          "sourceDenom": "wftm-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png"
+        },
+        {
+          "coinDenom": "USDC",
+          "chainSuggestionDenom": "polygon-uusdc",
+          "coinMinimalDenom": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
+          "sourceDenom": "polygon-uusdc",
+          "coinDecimals": 6,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+        },
+        {
+          "coinDenom": "USDC",
+          "chainSuggestionDenom": "avalanche-uusdc",
+          "coinMinimalDenom": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
+          "sourceDenom": "avalanche-uusdc",
+          "coinDecimals": 6,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+        },
+        {
+          "coinDenom": "axlFIL",
+          "chainSuggestionDenom": "wfil-wei",
+          "coinMinimalDenom": "ibc/18FB5C09D9D2371F659D4846A956FA56225E377EE3C3652A2BF3542BF809159D",
+          "sourceDenom": "wfil-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/filecoin/images/wfil.png"
+        },
+        {
+          "coinDenom": "ARB",
+          "chainSuggestionDenom": "arb-wei",
+          "coinMinimalDenom": "ibc/10E5E5B06D78FFBB61FD9F89209DEE5FD4446ED0550CBB8E3747DA79E10D9DC6",
+          "sourceDenom": "arb-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.png"
+        },
+        {
+          "coinDenom": "PEPE",
+          "chainSuggestionDenom": "pepe-wei",
+          "coinMinimalDenom": "ibc/E47F4E97C534C95B942729E1B25DBDE111EA791411CFF100515050BEA0AC0C6B",
+          "sourceDenom": "pepe-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png"
+        },
+        {
+          "coinDenom": "cbETH",
+          "chainSuggestionDenom": "cbeth-wei",
+          "coinMinimalDenom": "ibc/4D7A6F2A7744B1534C984A21F9EDFFF8809FC71A9E9243FFB702073E7FCA513A",
+          "sourceDenom": "cbeth-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/cbeth.png"
+        },
+        {
+          "coinDenom": "rETH",
+          "chainSuggestionDenom": "reth-wei",
+          "coinMinimalDenom": "ibc/E610B83FD5544E00A8A1967A2EB3BEF25F1A8CFE8650FE247A8BD4ECA9DC9222",
+          "sourceDenom": "reth-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/reth.png"
+        },
+        {
+          "coinDenom": "sfrxETH",
+          "chainSuggestionDenom": "sfrxeth-wei",
+          "coinMinimalDenom": "ibc/81F578C39006EB4B27FFFA9460954527910D73390991B379C03B18934D272F46",
+          "sourceDenom": "sfrxeth-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrxeth.svg"
+        },
+        {
+          "coinDenom": "wstETH",
+          "chainSuggestionDenom": "wsteth-wei",
+          "coinMinimalDenom": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
+          "sourceDenom": "wsteth-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
+        },
+        {
+          "coinDenom": "YieldETH",
+          "chainSuggestionDenom": "yieldeth-wei",
+          "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668",
+          "sourceDenom": "yieldeth-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.png"
+        },
+        {
+          "coinDenom": "OX",
+          "chainSuggestionDenom": "ox-wei",
+          "sourceDenom": "ox-wei",
+          "coinDecimals": 18,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+        }
+      ],
+      "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click.",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc-axelar.keplr.app"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://lcd-axelar.keplr.app"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "txPage": "https://axelarscan.io/tx/${txHash}"
+        }
+      ],
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "axelar-evm-bridge"
+      ]
     }
   ]
 }
