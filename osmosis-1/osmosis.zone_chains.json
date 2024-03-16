@@ -15,16 +15,6 @@
       ]
     },
     {
-      "chain_name": "cosmoshub",
-      "rpc": "https://rpc-cosmoshub.keplr.app",
-      "rest": "https://lcd-cosmoshub.keplr.app",
-      "explorer_tx_url": "https://www.mintscan.io/cosmos/txs/${txHash}",
-      "keplr_features": [
-        "ibc-go",
-        "ibc-transfer"
-      ]
-    },
-    {
       "chain_name": "terra",
       "rpc": "https://rpc-terra-ia.cosmosia.notional.ventures/",
       "rest": "https://api-terra-ia.cosmosia.notional.ventures/",
@@ -32,6 +22,16 @@
       "keplr_features": [
         "ibc-transfer",
         "terra-classic-fee"
+      ]
+    },
+    {
+      "chain_name": "namada",
+      "rpc": "https://proxy.heliax.click/shielded-expedition.88f17d1d14",
+      "rest": "https://proxy.heliax.click/shielded-expedition.88f17d1d14",
+      "explorer_tx_url": "https://namada.info/transactions?txs=${txHash}",
+      "keplr_features": [
+        "ibc-transfer",
+        "ibc-go"
       ]
     },
     {

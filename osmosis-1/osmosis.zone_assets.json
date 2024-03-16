@@ -9,6 +9,12 @@
       "osmosis_verified": true
     },
     {
+      "chain_name": "namada-shielded",
+      "base_denom": "Nam",
+      "twitter_URL": "https://twitter.com/Nam",
+      "osmosis_verified": true
+    },
+    {
       "chain_name": "osmosis",
       "base_denom": "uion",
       "twitter_URL": "https://twitter.com/_IONDAO",

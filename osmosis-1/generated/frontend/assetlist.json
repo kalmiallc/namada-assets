@@ -140,6 +140,42 @@
       ]
     },
     {
+      "chainName": "namada-shielded",
+      "sourceDenom": "Nam",
+      "coinMinimalDenom": "Nam",
+      "symbol": "NAM",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
+      },
+      "coingeckoId": "Nam",
+      "price": {
+        "poolId": "2",
+        "denom": "Nam"
+      },
+      "categories": [],
+      "transferMethods": [],
+      "counterparty": [],
+      "name": "Nam",
+      "description": "",
+      "verified": true,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "twitterURL": "https://twitter.com/Nam",
+      "relatedAssets": [
+        {
+          "chainName": "osmosis",
+          "sourceDenom": "uosmo"
+        },
+        {
+          "chainName": "stride",
+          "sourceDenom": "stuosmo"
+        }
+
+      ]
+    },
+    {
       "chainName": "axelar",
       "sourceDenom": "uusdc",
       "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
