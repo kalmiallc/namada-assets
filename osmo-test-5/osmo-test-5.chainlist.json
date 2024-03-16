@@ -61,6 +61,69 @@
       ]
     },
     {
+      "chain_name": "namada-shielded",
+      "status": "live",
+      "network_type": "mainnet",
+      "pretty_name": "Namada Shielded",
+      "chain_id": "shielded-expedition.88f17d1d14",
+      "bech32_prefix": "namada",
+      "bech32_config": {
+        "bech32PrefixAccAddr": "namada",
+        "bech32PrefixAccPub": "namadapub",
+        "bech32PrefixValAddr": "namadavaloper",
+        "bech32PrefixValPub": "namadavaloperpub",
+        "bech32PrefixConsAddr": "namadavalcons",
+        "bech32PrefixConsPub": "namadavalconspub"
+      },
+      "slip44": 118,
+      "fees": {
+        "fee_tokens": [
+          {
+            "denom": "Nam",
+            "fixed_min_gas_price": 0.0025,
+            "low_gas_price": 0.0025,
+            "average_gas_price": 0.025,
+            "high_gas_price": 0.04
+          }
+        ]
+      },
+      "staking": {
+        "staking_tokens": [
+          {
+            "denom": "Nam"
+          }
+        ],
+        "lock_duration": {
+          "time": "1209600s"
+        }
+      },
+      "description": "Namada desc",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://proxy.heliax.click/shielded-expedition.88f17d1d14"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://proxy.heliax.click/shielded-expedition.88f17d1d14"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "tx_page": "https://namada.info/transactions?txs={txHash}"
+        }
+      ],
+      "features": [
+        "ibc-go",
+        "ibc-transfer",
+        "cosmwasm",
+        "wasmd_0.24+",
+        "osmosis-txfees"
+      ]
+    },
+    {
       "chain_name": "cosmoshubtestnet",
       "status": "live",
       "network_type": "testnet",
