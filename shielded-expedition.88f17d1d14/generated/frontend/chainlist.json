@@ -91,7 +91,7 @@
         "bech32PrefixConsAddr": "namvalcons",
         "bech32PrefixConsPub": "namvalconspub"
       },
-      "slip44": 118,
+      "slip44": 877,
       "stakeCurrency": {
         "coinDenom": "Nam",
         "chainSuggestionDenom": "nam",

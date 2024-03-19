@@ -16,7 +16,7 @@
         "bech32PrefixConsAddr": "namadavalcons",
         "bech32PrefixConsPub": "namadavalconspub"
       },
-      "slip44": 118,
+      "slip44": 877,
       "fees": {
         "fee_tokens": [
           {
