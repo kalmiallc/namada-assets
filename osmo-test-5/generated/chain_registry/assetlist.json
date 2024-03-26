@@ -42,7 +42,7 @@
       "denom_units": [
         {
           "denom": "ibc/99581A4B65484A38441411A90B2050CC5AC2EF78CFD9367C7BD8460BFBEED3BA",
-          "exponent": 6
+          "exponent": 0
         }
       ],
       "type_asset": "sdk.coin",
