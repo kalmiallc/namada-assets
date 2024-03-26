@@ -79,7 +79,7 @@
       "fees": {
         "fee_tokens": [
           {
-            "denom": "Nam",
+            "denom": "ibc/99581A4B65484A38441411A90B2050CC5AC2EF78CFD9367C7BD8460BFBEED3BA",
             "fixed_min_gas_price": 0.0025,
             "low_gas_price": 0.0025,
             "average_gas_price": 0.025,
@@ -90,7 +90,7 @@
       "staking": {
         "staking_tokens": [
           {
-            "denom": "Nam"
+            "denom": "ibc/99581A4B65484A38441411A90B2050CC5AC2EF78CFD9367C7BD8460BFBEED3BA"
           }
         ],
         "lock_duration": {

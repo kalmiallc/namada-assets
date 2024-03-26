@@ -67,8 +67,8 @@
     },
     {
       "chainName": "namada-shielded",
-      "sourceDenom": "Nam",
-      "coinMinimalDenom": "Nam",
+      "sourceDenom": "ibc/99581A4B65484A38441411A90B2050CC5AC2EF78CFD9367C7BD8460BFBEED3BA",
+      "coinMinimalDenom": "ibc/99581A4B65484A38441411A90B2050CC5AC2EF78CFD9367C7BD8460BFBEED3BA",
       "symbol": "NAM",
       "decimals": 6,
       "logoURIs": {
@@ -77,7 +77,7 @@
       "coingeckoId": "Nam",
       "price": {
         "poolId": "2",
-        "denom": "Nam"
+        "denom": "ibc/99581A4B65484A38441411A90B2050CC5AC2EF78CFD9367C7BD8460BFBEED3BA"
       },
       "categories": [],
       "transferMethods": [],
