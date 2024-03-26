@@ -47,7 +47,7 @@
       ],
       "type_asset": "sdk.coin",
       "base": "Nam",
-      "name": "Namada",
+      "name": "Namada native token",
       "display": "Nam",
       "symbol": "NAM",
       "logoURIs": {
@@ -58,7 +58,7 @@
           "png": "https://namada.me/7fcb6905803e1322542660abe5eaffae.png"
         }
       ],
-      "coingecko_id": "Nam",
+      "coingecko_id": "Namada",
       "keywords": [
         "dex",
         "staking"
